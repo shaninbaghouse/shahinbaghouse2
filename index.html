@@ -1,142 +1,151 @@
 <!DOCTYPE html>
 <html lang="bn">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Shahin Bag House</title>
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Bengali&display=swap');
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shahin Bag House</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Bengali&display=swap');
 
-        body {
-            margin: 0;
-            font-family: 'Noto Sans Bengali', sans-serif;
-            background: linear-gradient(to right, #fbc2eb, #a6c1ee);
-            overflow-x: hidden;
-        }
-        .container {
-            padding: 30px;
-            animation: fadeInUp 1s ease forwards;
-        }
-        @keyframes fadeInUp {
-            0% {
-                opacity: 0;
-                transform: translateY(50px);
-            }
-            100% {
-                opacity: 1;
-                transform: translateY(0);
-            }
-        }
-        header {
-            text-align: center;
-            padding: 20px 0;
-        }
-        header h1 {
-            font-size: 40px;
-            color: #0077b6;
-        }
-        .description {
-            text-align: center;
-            margin-bottom: 30px;
-            font-size: 18px;
-            color: #333;
-        }
-        .products {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-            gap: 20px;
-            margin-bottom: 30px;
-        }
-        .product {
-            background: #fff;
-            border-radius: 15px;
-            box-shadow: 0 4px 10px rgba(0,0,0,0.2);
-            overflow: hidden;
-            text-align: center;
-            transition: transform 0.3s ease;
-        }
-        .product:hover {
-            transform: translateY(-5px);
-        }
-        .product img {
-            width: 100%;
-            height: 220px;
-            object-fit: cover;
-        }
-        .product h3 {
-            margin: 10px 0 5px;
-            color: #023047;
-        }
-        .product p {
-            color: #555;
-            font-size: 16px;
-            margin-bottom: 15px;
-        }
-        .contact-links {
-            text-align: center;
-            margin-top: 30px;
-        }
-        .contact-links a {
-            display: inline-block;
-            margin: 8px;
-            padding: 12px 20px;
-            background: #0077b6;
-            color: white;
-            text-decoration: none;
-            border-radius: 8px;
-            font-weight: bold;
-            transition: background 0.3s;
-        }
-        .contact-links a:hover {
-            background: #005f87;
-        }
-        footer {
-            text-align: center;
-            margin-top: 40px;
-            font-size: 14px;
-            color: #555;
-        }
-    </style>
+    body {
+      margin: 0;
+      font-family: 'Noto Sans Bengali', sans-serif;
+      background: linear-gradient(to right, #fbc2eb, #a6c1ee);
+      animation: fadeIn 1.5s ease;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(50px);}
+      to { opacity: 1; transform: translateY(0);}
+    }
+
+    .container {
+      padding: 20px;
+    }
+
+    header {
+      text-align: center;
+      padding: 20px 0;
+    }
+
+    header h1 {
+      font-size: 38px;
+      color: #7b2cbf;
+    }
+
+    .description {
+      text-align: center;
+      font-size: 18px;
+      color: #333;
+      margin-bottom: 30px;
+    }
+
+    .products {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+
+    .product {
+      background: #fff;
+      border-radius: 15px;
+      overflow: hidden;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+      text-align: center;
+      transition: transform 0.3s;
+    }
+
+    .product:hover {
+      transform: translateY(-5px);
+    }
+
+    .product img {
+      width: 100%;
+      height: 250px;
+      object-fit: cover;
+    }
+
+    .product h3 {
+      margin: 10px 0 5px;
+      color: #5f0f40;
+    }
+
+    .product p {
+      font-size: 16px;
+      color: #555;
+      margin-bottom: 10px;
+    }
+
+    .contact-links {
+      margin-top: 40px;
+      text-align: center;
+    }
+
+    .contact-links a {
+      display: inline-block;
+      margin: 10px;
+      padding: 12px 20px;
+      background: #7b2cbf;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 8px;
+      font-weight: bold;
+      transition: background 0.3s;
+    }
+
+    .contact-links a:hover {
+      background: #5a189a;
+    }
+
+    footer {
+      margin-top: 40px;
+      text-align: center;
+      color: #333;
+      font-size: 14px;
+    }
+  </style>
 </head>
 <body>
 
 <div class="container">
-    <header>
-        <h1>Shahin Bag House</h1>
-    </header>
+  <header>
+    <h1>Shahin Bag House</h1>
+  </header>
 
-    <div class="description">
-        চৌধুরী মার্কেট, ফুলবাড়িয়া, ময়মনসিংহ<br>
-        সকল প্রকার ব্যাগ, রেনকোট, ছাতা পাওয়া যায়
+  <div class="description">
+    চৌধুরী মার্কেট, ফুলবাড়িয়া, ময়মনসিংহ<br>
+    সকল প্রকার ব্যাগ, রেনকোট, ছাতা ইত্যাদি পাওয়া যায়
+  </div>
+
+  <div class="products">
+    <div class="product">
+      <img src="https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f" alt="লেডিজ ব্যাগ">
+      <h3>লেডিজ ব্যাগ</h3>
+      <p>৳১২০০ মাত্র</p>
     </div>
 
-    <div class="products">
-        <div class="product">
-            <img src="https://i.ibb.co/XsZ4Y8B/bag-sample.jpg" alt="লেডিজ ব্যাগ">
-            <h3>লেডিজ ব্যাগ</h3>
-            <p>৳১২০০ মাত্র</p>
-        </div>
-        <div class="product">
-            <img src="https://i.ibb.co/7rp0P0m/umbrella-sample.jpg" alt="ছাতা">
-            <h3>ছাতা</h3>
-            <p>৳৬০০ মাত্র</p>
-        </div>
-        <div class="product">
-            <img src="https://i.ibb.co/y6Z5C5T/raincoat-sample.jpg" alt="রেনকোট">
-            <h3>রেনকোট</h3>
-            <p>৳৮০০ মাত্র</p>
-        </div>
+    <div class="product">
+      <img src="https://images.unsplash.com/photo-1588702547923-7093a6c3ba33" alt="ছাতা">
+      <h3>ছাতা</h3>
+      <p>৳৬০০ মাত্র</p>
     </div>
 
-    <div class="contact-links">
-        <a href="tel:01326169658">কল করুন</a>
-        <a href="https://wa.me/8801326169658" target="_blank">WhatsApp এ চ্যাট করুন</a>
-        <a href="https://www.facebook.com/share/1BYXdqc2aJ/" target="_blank">ফেসবুক পেজ</a>
+    <div class="product">
+      <img src="https://images.unsplash.com/photo-1575986767347-33c8b8f84d80" alt="রেনকোট">
+      <h3>রেনকোট</h3>
+      <p>৳৮০০ মাত্র</p>
     </div>
+  </div>
 
-    <footer>
-        &copy; 2025 Shahin Bag House. সকল অধিকার সংরক্ষিত।
-    </footer>
+  <div class="contact-links">
+    <a href="tel:01326169658">কল করুন</a>
+    <a href="https://wa.me/8801326169658" target="_blank">WhatsApp করুন</a>
+    <a href="https://www.facebook.com/share/1BYXdqc2aJ/" target="_blank">Facebook পেজ</a>
+  </div>
+
+  <footer>
+    &copy; 2025 Shahin Bag House. সকল অধিকার সংরক্ষিত।
+  </footer>
 </div>
 
 </body>
