@@ -1,152 +1,111 @@
 <!DOCTYPE html>
 <html lang="bn">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Shahin Bag House</title>
-  <style>
-    @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Bengali&display=swap');
-
-    body {
-      margin: 0;
-      font-family: 'Noto Sans Bengali', sans-serif;
-      background: linear-gradient(to right, #fbc2eb, #a6c1ee);
-      animation: fadeIn 1.5s ease;
-    }
-
-    @keyframes fadeIn {
-      from { opacity: 0; transform: translateY(50px);}
-      to { opacity: 1; transform: translateY(0);}
-    }
-
-    .container {
-      padding: 20px;
-    }
-
-    header {
-      text-align: center;
-      padding: 20px 0;
-    }
-
-    header h1 {
-      font-size: 38px;
-      color: #7b2cbf;
-    }
-
-    .description {
-      text-align: center;
-      font-size: 18px;
-      color: #333;
-      margin-bottom: 30px;
-    }
-
-    .products {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-      gap: 20px;
-    }
-
-    .product {
-      background: #fff;
-      border-radius: 15px;
-      overflow: hidden;
-      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
-      text-align: center;
-      transition: transform 0.3s;
-    }
-
-    .product:hover {
-      transform: translateY(-5px);
-    }
-
-    .product img {
-      width: 100%;
-      height: 250px;
-      object-fit: cover;
-    }
-
-    .product h3 {
-      margin: 10px 0 5px;
-      color: #5f0f40;
-    }
-
-    .product p {
-      font-size: 16px;
-      color: #555;
-      margin-bottom: 10px;
-    }
-
-    .contact-links {
-      margin-top: 40px;
-      text-align: center;
-    }
-
-    .contact-links a {
-      display: inline-block;
-      margin: 10px;
-      padding: 12px 20px;
-      background: #7b2cbf;
-      color: #fff;
-      text-decoration: none;
-      border-radius: 8px;
-      font-weight: bold;
-      transition: background 0.3s;
-    }
-
-    .contact-links a:hover {
-      background: #5a189a;
-    }
-
-    footer {
-      margin-top: 40px;
-      text-align: center;
-      color: #333;
-      font-size: 14px;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shahin Bag House</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background: #0275d8;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+        nav {
+            background: #025aa5;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        section {
+            padding: 30px;
+            background: white;
+            margin: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        .products ul {
+            list-style: square inside;
+            line-height: 1.8;
+        }
+        footer {
+            background: #025aa5;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 30px;
+        }
+        .contact-info {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            margin-top: 15px;
+        }
+        .contact-info i {
+            margin-right: 8px;
+        }
+    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
 <body>
 
-<div class="container">
-  <header>
+<header>
     <h1>Shahin Bag House</h1>
-  </header>
+    <p>ব্যাগে চাই স্টাইল, দামে চাই স্বস্তি – পেয়ে যাবেন এখানে!</p>
+</header>
 
-  <div class="description">
-    চৌধুরী মার্কেট, ফুলবাড়িয়া, ময়মনসিংহ<br>
-    সকল প্রকার ব্যাগ, রেনকোট, ছাতা ইত্যাদি পাওয়া যায়
-  </div>
+<nav>
+    <a href="#about">আমাদের সম্পর্কে</a>
+    <a href="#products">পণ্য</a>
+    <a href="#contact">যোগাযোগ</a>
+</nav>
 
-  <div class="products">
-    <div class="product">
-      <img src="https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f" alt="লেডিজ ব্যাগ">
-      <h3>লেডিজ ব্যাগ</h3>
-      <p>৳১২০০ মাত্র</p>
+<section id="about">
+    <h2>আমাদের সম্পর্কে</h2>
+    <p>Shahin Bag House-এ আপনি পাবেন সেরা মানের ব্যাগ অত্যন্ত সাশ্রয়ী দামে। স্কুল ব্যাগ, কলেজ ব্যাগ থেকে শুরু করে সব ধরনের ব্যাগ এবং আনুষঙ্গিক সামগ্রী এখানে পাওয়া যায়।</p>
+</section>
+
+<section id="products" class="products">
+    <h2>আমাদের পণ্যসমূহ</h2>
+    <ul>
+        <li>স্কুল ব্যাগ</li>
+        <li>কলেজ ব্যাগ</li>
+        <li>সাইট ব্যাগ</li>
+        <li>বাটি ব্যাগ</li>
+        <li>চেইন ব্যাগ</li>
+        <li>ট্রলি ব্যাগ</li>
+        <li>হাত পারস</li>
+        <li>ছাতা</li>
+        <li>রেইনকোট</li>
+        <li>চায়না ও দেশি-বিদেশি ব্যাগ</li>
+    </ul>
+</section>
+
+<section id="contact">
+    <h2>যোগাযোগ করুন</h2>
+    <div class="contact-info">
+        <p><i class="fas fa-map-marker-alt"></i> চৌধুরী মার্কেট, ফুলবাড়িয়া, ময়মনসিংহ</p>
+        <p><i class="fas fa-phone"></i> ০১৩২৬১৬৯৬৫৮</p>
+        <p><i class="fas fa-envelope"></i> shahinbaghouse@gmail.com</p>
+        <p><i class="fab fa-facebook"></i> <a href="https://www.facebook.com/share/1BNYUJcdFq/" style="color: #0275d8;" target="_blank">আমাদের ফেসবুক পেজ</a></p>
     </div>
+</section>
 
-    <div class="product">
-      <img src="https://images.unsplash.com/photo-1588702547923-7093a6c3ba33" alt="ছাতা">
-      <h3>ছাতা</h3>
-      <p>৳৬০০ মাত্র</p>
-    </div>
-
-    <div class="product">
-      <img src="https://images.unsplash.com/photo-1575986767347-33c8b8f84d80" alt="রেনকোট">
-      <h3>রেনকোট</h3>
-      <p>৳৮০০ মাত্র</p>
-    </div>
-  </div>
-
-  <div class="contact-links">
-    <a href="tel:01326169658">কল করুন</a>
-    <a href="https://wa.me/8801326169658" target="_blank">WhatsApp করুন</a>
-    <a href="https://www.facebook.com/share/1BYXdqc2aJ/" target="_blank">Facebook পেজ</a>
-  </div>
-
-  <footer>
-    &copy; 2025 Shahin Bag House. সকল অধিকার সংরক্ষিত।
-  </footer>
-</div>
+<footer>
+    <p>© 2025 Shahin Bag House | সর্বস্বত্ব সংরক্ষিত</p>
+</footer>
 
 </body>
 </html>
