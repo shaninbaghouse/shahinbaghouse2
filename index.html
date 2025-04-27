@@ -5,108 +5,74 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Shahin Bag House</title>
     <style>
-        body {
-            font-family: 'Arial', sans-serif;
-            background: #f0f8ff;
-            margin: 0;
-            padding: 0;
-            text-align: center;
-        }
-        header {
-            background: #004466;
-            color: white;
-            padding: 20px 0;
-        }
-        section {
-            margin: 40px;
-        }
-        footer {
-            background: #004466;
-            color: white;
-            padding: 10px 0;
-            position: fixed;
-            width: 100%;
-            bottom: 0;
-        }
-        h1 {
-            margin: 0;
-        }
-    </style>
-</head>
-<body>
+        @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Bengali&display=swap');
 
-<header>
-    <h1>Shahin Bag House</h1>
-    <p>চৌধুরী কমপ্লেক্স, ফুলবাড়িয়া, ময়মনসিংহ</p>
-</header>
-
-<section>
-    <h2>স্বাগতম!</h2>
-    <p>আমাদের দোকানে পাবেন নানান ধরনের মানসম্মত ব্যাগ, স্কুল ব্যাগ, ট্রাভেল ব্যাগ এবং আরো অনেক কিছু।</p>
-    <p>যোগাযোগ করুন: ০১৩২৬-১৬৯৬৫৮</p><p>
-    <a href="https://www.facebook.com/profile.php?id=61575580235215&mibextid=ZbWKwL" target="_blank">
-        আমাদের ফেসবুক পেজে যান
-        <!DOCTYPE html>
-<html lang="bn">
-<head>
-    <meta charset="UTF-8">
-    <title>Shahin Bag House</title>
-    <style>
         body {
-            background: linear-gradient(to right, #d4fc79, #96e6a1);
+            background: linear-gradient(to right, #fbc2eb, #a6c1ee);
             font-family: 'Noto Sans Bengali', sans-serif;
             margin: 0;
-            padding: 20px;
+            padding: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+        }
+        .card {
+            background: #ffffff;
+            padding: 30px 20px;
+            border-radius: 20px;
+            box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.2);
             text-align: center;
+            max-width: 500px;
+            width: 90%;
         }
-        .container {
-            background: white;
-            padding: 30px;
-            border-radius: 15px;
-            box-shadow: 0 8px 16px rgba(0,0,0,0.2);
-            max-width: 600px;
-            margin: auto;
-        }
-        h1 {
-            color: #0a9396;
+        .card h1 {
+            font-size: 36px;
+            color: #0077b6;
             margin-bottom: 10px;
         }
-        p {
-            font-size: 20px;
+        .card p {
+            font-size: 18px;
             color: #333;
-            margin: 5px 0;
+            margin: 8px 0;
         }
-        a {
-            color: #0077b6;
+        .card a {
+            display: inline-block;
+            margin: 5px 0;
+            color: #0a9396;
             text-decoration: none;
             font-weight: bold;
+            font-size: 18px;
         }
-        a:hover {
+        .card a:hover {
             text-decoration: underline;
         }
-        img {
+        .qr-code {
             margin-top: 20px;
+        }
+        .qr-code img {
             width: 300px;
             height: auto;
+            border: 2px solid #0077b6;
+            border-radius: 10px;
+            padding: 10px;
+            background: #ffffff;
         }
     </style>
 </head>
 <body>
 
-<div class="container">
+<div class="card">
     <h1>Shahin Bag House</h1>
     <p>ঠিকানা: চৌধুরী মার্কেট, ফুলবাড়িয়া, ময়মনসিংহ</p>
     <p>মোবাইল: <a href="tel:01326169658">01326-169658</a></p>
-    <p>ফেসবুক: <a href="https://www.facebook.com/share/1BYXdqc2aJ/" target="_blank">আমাদের ফেসবুক পেজ</a></p>
-    <p>ওয়েবসাইট: <a href="https://shaninbaghouse.github.io/shahinbaghouse2/" target="_blank">আমাদের ওয়েবসাইট</a></p>
+    <p><a href="https://www.facebook.com/share/1BYXdqc2aJ/" target="_blank">ফেসবুক পেজ</a></p>
+    <p><a href="https://shaninbaghouse.github.io/shahinbaghouse2/" target="_blank">ওয়েবসাইট</a></p>
 
-    <img src="shahinbaghouse_logo_with_qr.png" alt="Shahin Bag House QR Code">
+    <div class="qr-code">
+        <img src="shahinbaghouse_logo_with_qr.png" alt="Shahin Bag House QR Code">
+    </div>
 </div>
-
-</body>
-</html>
-    &copy; ২০২৫ শাহিন ব্যাগ হাউজ
-</footer>
 
 </body>
 </html>
